@@ -69,8 +69,6 @@ body {
 
 .secundario__imagem {
     width: 80%;
-    Baixe seus cursos
-Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
 }
 
 .secundario {
@@ -97,14 +95,6 @@ Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com vo
 .container__descricao {
     padding: 2em;
     align-items: center;
-}
-
-.secundario__imagem__tela {
-    position: absolute;
-    width: 496px
-    height: 338.96px;
-    left: 778px;
-    top: 1486px;
 }
 
 .dispositivos__lista {
