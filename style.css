@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-do-fundo: #00030C;
     --fonte-principal: "Inter";
+    --botao-azul-efeito: #3c92FA;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/* ate aqui ta ok*/
+
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
@@ -68,7 +69,8 @@ body {
 
 .secundario__imagem {
     width: 80%;
-    
+    Baixe seus cursos
+Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
 }
 
 .secundario {
@@ -99,7 +101,7 @@ body {
 
 .secundario__imagem__tela {
     position: absolute;
-    width: 496px;
+    width: 496px
     height: 338.96px;
     left: 778px;
     top: 1486px;
@@ -143,4 +145,17 @@ body {
 .rodape__texto {
     text-align: center;
     margin: 5em 0;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    color: var(--cor-do-fundo);
+    background-color: var(--botao-azul-efeito);
 }
